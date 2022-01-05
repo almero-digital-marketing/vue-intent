@@ -1,0 +1,23 @@
+{
+  "name": "vue-intent",
+  "version": "1.0.2",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-intent.umd.js",
+  "module": "./dist/vue-intent.es.js",
+  "peerDependencies": {
+    "vue": "^3.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "vite": "^2.5.4"
+  }
+}
